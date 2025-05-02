@@ -164,7 +164,7 @@ export const PlayerPage = () => {
         Header: "Aksi",
         id: "actions",
         Cell: ({ row }: { row: { original: Player } }) => (
-          <div className="flex items-center justify-end space-x-2">
+          <div>
             <button
               onClick={() => handleEditClick(row.original)}
               disabled={updateMutation.isPending || deleteMutation.isPending}
@@ -277,7 +277,7 @@ export const PlayerPage = () => {
                         {player.email}
                       </td>
                       {/* Render Aksi */}
-                      <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                      <td className="px-6 py-4 whitespace-nowrap text-left text-sm font-medium space-x-2">
                         {columns
                           .find((c) => c.id === "actions")
                           ?.Cell?.({ row: { original: player } })}

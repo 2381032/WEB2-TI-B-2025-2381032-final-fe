@@ -264,8 +264,8 @@ export const MatchPage = () => {
                         {match.admin_email}
                       </td>
                       {/* Render kolom Aksi secara langsung */}
-                      <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                        <div className="flex items-center justify-end space-x-2">
+                      <td className="px-6 py-4 whitespace-nowrap text-left text-sm font-medium space-x-2">
+                        <div>
                           <button
                             onClick={() => handleEditClick(match)}
                             disabled={
