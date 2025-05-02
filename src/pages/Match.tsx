@@ -257,7 +257,7 @@ export const MatchPage = () => {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                         {formatDateTimeForDisplay(match.schedule_date)}
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 text-center">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 text-left">
                         {match.total_teams}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">

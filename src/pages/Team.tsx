@@ -211,7 +211,7 @@ export const TeamPage = () => {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
                         {team.name}
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 text-center">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500 text-left">
                         {team.member_count}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
